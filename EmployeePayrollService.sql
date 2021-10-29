@@ -37,3 +37,18 @@ UC5
 select * from employee_payroll where name="Ajit";
 select * from employee_payroll where salary=70000;
 
+UC6 
+
+alter table employee_payroll add gender char(1);
+
+UPDATE employee_payroll set gender = 'M' WHERE id =1;
+UPDATE employee_payroll set gender = 'M' WHERE id =2;
+UPDATE employee_payroll set gender='F' where id='3';
+UPDATE employee_payroll set gender = 'M' WHERE id =4;
+
+
+select * from employee_payroll;
+
+
+
+
