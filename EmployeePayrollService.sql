@@ -32,3 +32,8 @@ UC4
 
 select * from employee_payroll;
 
+UC5
+
+select * from employee_payroll where name="Ajit";
+select * from employee_payroll where salary=70000;
+
